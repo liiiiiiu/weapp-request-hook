@@ -1,6 +1,6 @@
 {
   "name": "weapp-request-hook",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "🌞 微信小程序发起网络请求时的辅助函数",
   "scripts": {
     "build": "vite build && tsc -p tsconfig.json"

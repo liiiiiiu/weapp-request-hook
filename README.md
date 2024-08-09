@@ -14,7 +14,7 @@ npm i weapp-request-hook
 
 ## 使用
 
-Request Hook 提供以下函数：
+Request Hook 提供以下函数
 
 ### lock
 
