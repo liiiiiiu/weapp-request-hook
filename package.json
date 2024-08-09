@@ -1,0 +1,44 @@
+{
+  "name": "weapp-request-hook",
+  "version": "1.0.0",
+  "description": "🌞 微信小程序发起网络请求时的辅助函数",
+  "scripts": {
+    "build": "vite build && tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-typescript": "^7.18.6",
+    "@types/node": "^18.0.0",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/weapp-request-hook.es.js",
+  "module": "./dist/weapp-request-hook.umd.js",
+  "types": "./dist/weapp-request-hook.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/weapp-request-hook.es.js",
+      "require": "./dist/weapp-request-hook.umd.js"
+    }
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:liiiiiiu/weapp-request-hook.git"
+  },
+  "keywords": [
+    "微信小程序",
+    "weapp"
+  ],
+  "author": "liujiachang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liiiiiiu/weapp-request-hook/issues"
+  },
+  "homepage": "https://github.com/liiiiiiu/weapp-request-hook#readme"
+}
